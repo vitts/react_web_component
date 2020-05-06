@@ -1,0 +1,37 @@
+.greet {
+	padding-bottom: 47px;
+	padding-top: 10px;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 28px;
+}
+.fruits {
+	/* background: aqua; */
+	border: 2px solid orange;
+	border-radius: 10px;
+	padding: 16px;
+}
+.fruits > h2{
+	margin-top: 2px;
+	background: cadetblue;
+	padding: 8px;
+	color: white;
+	width: max-content;
+	border-radius: 4px;
+}
+
+.sweets {
+	/* background: aqua; */
+	border: 2px solid orange;
+	border-radius: 10px;
+	padding: 16px;
+    margin-top: 10px;
+}
+.sweets > h2 {
+	margin-top: 2px;
+	background: cadetblue;
+	padding: 8px;
+	color: white;
+	width: max-content;
+	border-radius: 4px;
+}
