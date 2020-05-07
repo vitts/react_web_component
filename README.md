@@ -6,4 +6,5 @@ This web APP usages following technologies as,
 3. Babel JS
 4. Html
 5. Css
+
 To run this application just clone this REPO and open index.html file in Browser.

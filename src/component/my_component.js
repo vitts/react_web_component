@@ -40,7 +40,15 @@ class MyComponent extends React.Component {
        )
     }
     //Component #4
-    const LikeButton = (props) => <button onClick={ () => alert('Thank you!,You like '+props.type) }>Like</button>
+    const LikeButton = (props) => 
+    { 
+     const btnHtml = (this.state.isLiked) ? 'Thank you!,You like '+props.type : 'Like';
+     return(
+      <button id={'btn-'+props.type} style={{background:'red',color:'white',cursor:'pointer'}} onClick={ () => this.setState({isLiked:true})} >
+        { btnHtml }
+      </button>
+      )
+    }
     //   Data model
     const myFavFruits = ['Mango','Watermelon','Apple','Muskmelon','Chikku'];
     const myFavSweets = ['Kaju katli','Laddo','Jelebi','Gulab Jammun','Chakka','Shrikhand','Basundi'];
