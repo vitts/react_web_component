@@ -12,7 +12,7 @@ class MyComponent extends React.Component {
 
   componentDidUpdate()
   {
-    console.log(this.state.isLiked);
+    console.log('Log when update some contents from an elementd '+this.state.isLiked);
   }
 
   render() {
