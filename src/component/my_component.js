@@ -16,7 +16,7 @@ class MyComponent extends React.Component {
   }
 
   render() {
-   //Resuable component #1
+   //component #1
     const Message = (props) => <div className={props.type}>{props.msg}</div>
     //Resuable component #2
     const LiComp = (props) =>  <li>{props.item}</li>
